@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+html, body, #map {
+    height: 100%;
+}
+.distance-tooltip {
+    background-color: white;
+    border: 1px solid black;
+    padding: 2px;
+}

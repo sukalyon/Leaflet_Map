@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leaflet</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-draw/dist/leaflet.draw.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-draw/dist/leaflet.draw.js"></script>
+    <!-- <link rel="stylesheet" href="path/to/leaflet-control-layers-tree.css" /> -->
+    <!-- <script src="path/to/leaflet-control-layers-tree.js"></script> -->
+    <link rel="stylesheet" href="src/style.css" />
+</head>
+<body>
+    <div>
+        <label for="coords">Koordinatlar (virgülle ayrılmış lat,lng çiftleri):</label>
+        <input type="text" id="coords" placeholder="37.7749,-122.4194, 37.7849,-122.4094, ...">
+        <button onclick="drawPolygon()">Poligon Çiz</button>
+    </div>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="src/index.js"></script>
+</body>
+</html>
